@@ -1,4 +1,4 @@
-package OOP_Examples;
+package net.konic;
 public class testObjectExp {
 	
 	public static void main(String[] args) {
