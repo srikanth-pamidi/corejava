@@ -1,4 +1,4 @@
-package net.konic.veriables;
+package net.konic.variables;
 
 public class CarDetail {
 	
