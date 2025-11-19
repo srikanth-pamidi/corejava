@@ -1,6 +1,6 @@
 package net.konic.veriables;
 
-public class CarDetail01 {
+public class CarDetail {
 	
 	public static void main(String[] args) {
 		
