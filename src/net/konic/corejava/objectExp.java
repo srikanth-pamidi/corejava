@@ -1,4 +1,4 @@
-package net.konic;
+package net.konic.corejava;
 
 
 

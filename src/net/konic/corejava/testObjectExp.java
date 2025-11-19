@@ -1,4 +1,4 @@
-package net.konic;
+package net.konic.corejava;
 public class testObjectExp {
 	
 	public static void main(String[] args) {
