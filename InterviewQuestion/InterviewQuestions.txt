@@ -1,4 +1,4 @@
-Git & GitHub Interview Notes
+
 1. What is Git?
 Git is a distributed version control system used to track changes in source code.
 2. What is GitHub?
