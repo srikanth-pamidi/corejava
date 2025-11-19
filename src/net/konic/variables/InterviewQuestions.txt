@@ -1,0 +1,87 @@
+1.What is java ?
+➢ Java is a high-level, class-based, object-oriented programming language that is designed to have as few 
+implementation dependencies as possible.
+➢ It is a general-purpose programming language intended to let programmers write once, run anywhere, 
+meaning that compiled Java code can run on all platforms that support Java without the need to recompile.
+➢ it is used to develop a wide variety of applications, including:
+➢ Web applications, Mobile applications, Desktop applications, Enterprise software, Scientific applications, and 
+Embedded systems.
+2.Explain the differ b/w JDK, JRE, JVM.
+JDK :
+Java Development Kit is a software development environment that includes JRE and development tools. It's 
+used to create Java applications and applets. JDK includes tools like a compiler, debugger, and documentation 
+generator.
+JRE :
+Java Runtime Environment is a set of software tools that provides a runtime environment for running other 
+software. It's used to run Java applications. JRE contains class libraries, supporting files, and the JVM.
+JVM :
+Java Virtual Machine is the foundation of Java programming language and ensures the program's Java source 
+code will be platform-agnostic. It's used to run Java bytecode. JVM is included in both JDK and JRE, and Java programs 
+won't run without it.
+3. what are the main features of java ?
+1. Simple and Easy to Learn. Java is easy to learn and simple to use as a programming language. 
+2. Object-Oriented Programming. 
+3. Platform Independence. 
+4. Automatic Memory Management. 
+5. Security. 
+6. Rich API. 
+7. Multithreading. 
+8. High Performance
+9. Scalability
+4. what is differ b/w java and javascript ?
+➢ Java is an OOP programming language while Java Script is an OOP scripting language.
+➢ Java creates applications that run in a virtual machine or browser while JavaScript code is run on a browser 
+only. 
+➢ Java code needs to be compiled while JavaScript code are all in text.
+5. what is an object-oriented programming language?
+Object-oriented programming (OOP) is a programming language that uses objects to bind data and the functions that 
+operate on it. The goal of OOP is to implement real-world entities like inheritance, hiding, and polymorphism. OOP 
+concepts include:
+❖ Class 
+❖ Object
+❖ Inheritance 
+❖ polymorphism
+❖ encapsulation
+❖ abstraction
+
+36. What are the different types of variables in java ?
+There are three different types of variables in Java:
+Local variables
+the method, constructor, or block is entered and destroyed when it exits.Declare inside a method, 
+constructor, or block. They are only accessible within the scope in which they are declared. Local variables are 
+created when 
+Instance variables
+declared outside of any method, constructor, or block, but within a class. They are accessible to all 
+methods within the class. Instance variables are created when an object is created and destroyed when the object is 
+destroyed.
+Static variables
+declared with the static keyword. They are shared among all instances of a class. Static variables are created 
+when the class is loaded and destroyed when the class is unloaded.
+Here is an example of each type of variable:
+public class MyClass {
+ // Local variable
+ private int myLocalVariable;
+ // Instance variable
+ private int myInstanceVariable;
+ // Static variable
+ private static int myStaticVariable;
+ public void myMethod() {
+ // Local variable
+ int myLocalVariable = 10;
+ // Access instance variable
+ myInstanceVariable = 20;
+/ Access static variable
+ myStaticVariable = 30;
+ }
+}
+37. How do you declare and initialize variable in java ?
+// Declare an integer variable
+int myNum = 5;
+// Declare a float variable
+float myFloatNum = 5.99f;
+// Declare a character variable
+char myLetter = 'D';
+// Declare a boolean variable
+boolean myBool = true;
+// Declare a String variable
+String myText = "Hello";

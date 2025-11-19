@@ -2,7 +2,7 @@ package net.konic.variables;
 
 public class School {
 	
-	public static void main() {
+	public static void main(String[] args) {
 		
 		String schoolName = "G.V.K";
 		int classRooms = 10;
@@ -14,7 +14,7 @@ public class School {
 		System.out.println("Total Class Rooms :" + classRooms);
 		System.out.println("Total Staff : "+ staff);
 		System.out.println("Total stregnth : " + stregnth );
-		System.out.println("Start Time : "+startTime+"AM");
+		System.out.println("Start Time : "+startTime+" AM");
 		
 	}
 
