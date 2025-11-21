@@ -2,6 +2,7 @@ package net.konic.ConditionalOperators;
 
 public class NestedIf {
 
+	
 	public static void main(String[] args) {
 		
 		int m1=67;
