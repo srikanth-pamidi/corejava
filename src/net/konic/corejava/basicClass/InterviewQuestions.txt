@@ -1,0 +1,35 @@
+Git & GitHub Interview Notes
+1. What is Git?
+Git is a distributed version control system used to track changes in source code.
+2. What is GitHub?
+GitHub is a cloud-based hosting platform for Git repositories.
+3. What is a repository?
+A repository (repo) stores code, history, and configuration.
+4. What is a commit?
+A commit is a snapshot of your code at a specific time.
+5. Common Git Commands:
+git init – Initialize repository
+git clone – Copy a remote repo
+git add . – Stage changes
+git commit -m "message" – Commit staged changes
+git push – Upload local commits to GitHub
+git pull – Download + merge from GitHub
+git status – Show changes
+git log – Show commit history
+6. What is a branch?
+A branch allows parallel development.
+7. Branch Commands:
+git branch – Create branch
+git checkout – Switch branch
+git merge – Merge into current branch
+8. What is a merge conflict?
+A merge conflict occurs when Git cannot combine changes automatically.
+9. Git fetch vs Git pull:
+git fetch – Downloads changes only
+git pull – Downloads + merges changes
+10. What is a pull request?
+A pull request (PR) is a request to merge code into another branch (commonly used in GitHub).
+11. What is .gitignore?
+A file to exclude specific files/folders from Git tracking.
+12. What is GitHub Actions?
+A CI/CD automation tool provided by GitHub.
