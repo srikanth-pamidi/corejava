@@ -1,7 +1,7 @@
 package CollectonsExample;
 
 public class Listexp {
-	 public static void main(String[] args) {
+	
 
 	        int[] arr = {5, 10, 15, 20, 25};
 	        int search = 15;
