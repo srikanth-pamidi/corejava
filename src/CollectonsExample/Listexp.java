@@ -4,7 +4,7 @@ public class Listexp {
 	public static void main(String[] args) {
 		
 	
-	ArrayList<String> a1 = new ArrayList<>();
+	ArrayList a1 = new ArrayList();
 	Vector v1 = new Vector();
 	
 	
