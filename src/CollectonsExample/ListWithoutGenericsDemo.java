@@ -6,7 +6,6 @@ public class ListWithoutGenericsDemo {
  
     public static void main(String[] args) {
  
-        // List without generics (can store ANY type)
     	List list=new LinkedList();
     	list.add(1);
     	list.add("syed");

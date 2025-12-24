@@ -13,7 +13,7 @@ public class LinkedListAllOperations {
 	}
 
 	private List<Integer> addData() {
-		// TODO Auto-generated method stub
+
 		list.add(2);
 		list.add(3);
 		return list;
