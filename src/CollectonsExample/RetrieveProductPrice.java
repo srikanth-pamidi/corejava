@@ -22,8 +22,8 @@ public class RetrieveProductPrice {
 	}
 	public static void main(String[] args) {
 		RetrieveProductPrice obj = new RetrieveProductPrice();
-		int index = obj.returnPrice();
-		System.out.println("Price at index 3 : " +index);
+		
+		System.out.println("Price at index 3 : " +obj.returnPrice());
 		
 	}
 
