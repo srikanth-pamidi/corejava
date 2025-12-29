@@ -1,10 +1,9 @@
-package net.konic.corejava.map;
+package net.konic.corejava.HashMap_LinkedHashMap;
 
 import java.util.*;
 
-public class RemoveEmployeeByID {
-	
-	Map<Integer, Employees> removeEmp() {
+public class EmpLinkedHashMap {
+	Map<Integer,Employees> updateDepm() {
 		Employees obj1 = new Employees();
 		obj1.setId(101);
 		obj1.setName("Ayaan");
@@ -19,21 +18,25 @@ public class RemoveEmployeeByID {
 		obj3.setId(103);
 		obj3.setName("Sara");
 		obj3.setDept("Finance");
-		
+		Employees obj4 = new Employees();
+		obj4.setId(103);
+		obj4.setName("Sara");
+		obj4.setDept("Admin");
+
 		Map<Integer, Employees> map = new HashMap<>();
 		map.put(101, obj1);
 		map.put(102, obj2);
 		map.put(103, obj3);
+		map.put(103, obj4);
 		
-		
-		 map.remove(101);
-		 return map;
-		
+		return map;
 
-}
-	public static void main(String[] args) {
-		RemoveEmployeeByID obj = new RemoveEmployeeByID();
-		Map<Integer, Employees> remove = obj.removeEmp();
-		System.out.println("After Remove 101 Emplye : "+remove);
 	}
+	public static void main(String[] args) {
+		EmpLinkedHashMap obj = new EmpLinkedHashMap();
+		Map<Integer, Employees> details = obj.updateDepm();
+		System.out.println("Updated Employee: "+details);
+	}
+	
+
 }

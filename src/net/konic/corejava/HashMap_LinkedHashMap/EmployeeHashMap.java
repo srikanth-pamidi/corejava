@@ -1,4 +1,4 @@
-package net.konic.corejava.map;
+package net.konic.corejava.HashMap_LinkedHashMap;
 
 import java.util.*;
 
