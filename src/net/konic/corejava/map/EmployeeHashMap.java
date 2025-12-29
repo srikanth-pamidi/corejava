@@ -5,18 +5,21 @@ import java.util.*;
 public class EmployeeHashMap {
 
 	public static void main(String[] args) {
-
+ 
 		Map<Integer, Employee> map = new HashMap<>();
 
 		map.put(1, new Employee(1, "Srikanth", "IT"));
+		
 		map.put(2, new Employee(2, "Wasif", "HR"));
+		
 		map.put(3, new Employee(3, "Hussain", "Finance"));
+		
 		map.put(3, new Employee(3, "Hussain Khan", "Finance"));
 		System.out.println(map);
-		System.out.println("Employee with ID 1 : " + map.get(1));
-		System.out.println("Employee value Exist or Not : " + map.containsValue(new Employee(1, "Srikanth", "IT")));
+		System.out.println("Employee with ID 1 : " +map.get(1));
+		System.out.println("Employee value Exist or Not : " + map.containsValue(new Employee(2, "Wasif", "HR")));
 
-		if (map.containsKey(1)) {
+		if (map.containsKey(4)) {
 			System.out.println("Employee Exist");
 		} else {
 			System.out.println("Employee not Exist");
@@ -34,12 +37,16 @@ public class EmployeeHashMap {
 
 			System.out.println(values);
 		}
+		
+		
 		map.size();
-		System.out.println();
+		System.out.println("Size :"+map.size());
+		
+		
 		map.remove(1);
 		System.out.println("\nAfter Rmove : " + map);
 		map.size();
-		System.out.println(map);
+		System.out.println("Size :"+map.size());
 		map.clear();
 		System.out.println("After Clear :" + map);
 		map.size();
